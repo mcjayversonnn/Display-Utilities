@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CASTRO - Display Utilities</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">-->
+    <style>
+
+      body {
+        background-color: #ffffff;
+      }
+
+      h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>-->
+    
+    <!--Task 1-->
+
+    <div class="container">
+      <h1 class="display-2">Task 1: Application of d-none, d-inline, and d-block.</h1>
+      <h1 class="bg-primary text-light d-none d-md-block">display none on S and XS.</h1>    
+      <h1 class="bg-warning text-dark d-block">display block sentence.</h1>
+      <h1 class="bg-danger text-white d-inline">display inline sentence.</h1>
+      <h1 class="bg-success text-white d-none">display none</h1>
+      <h1 class="bg-info text-dark d-sm-block">Hidden when viewport is XS</h1>  
+    </div>
+
+    <!--Task 2-->
+
+    <div class="container">
+      <h1 class="display-2">TASK 2: BREAKPOINTS WITH DISPLAY CONTROL</h1>
+      <h1 class="bg-primary text-light d-sm-block d-lg-none">display block on small screen and display none on large.</h1>
+      <h1 class="bg-info text-dark d-none d-sm-inline d-lg-none">display inline on small and medium screen.</h1>
+      <h1 class="bg-danger text-dark d-md-none">display none on medium sizes and above.</h1>
+      <h1 class="bg-warning text-dark d-inline">display inline on all screen sizes.</h1>
+      <h1 class="bg-dark text-light d-none d-sm-block">display block on small screen and above.</h1>
+    </div>
+
+    <!--Task 3-->
+
+    <div class="container">
+      <h1 class="display-2">TASK 3: APPLICATION OF BORDER ADDITIVE</h1>
+          <span class="m-0 border-3 bg-warning text-dark border-start border-danger">border-start (left)</span>
+          <span class="m-1 border-3 bg-warning text-dark border-end border-danger">border-end (right)</span>
+          <span class="m-2 border-3 bg-warning text-dark border-top border-danger">border-top</span>
+          <span class="m-3 border-3 bg-warning text-dark border-bottom border-danger">border-bottom</span>
+          <span class="m-4 border-3 bg-warning text-dark border-top border-bottom border-danger">border-top & border-bottom</span>
+          <span class="m-5 border-3 bg-warning text-dark border-start border-end border-danger">border-start (left) & border-end (right)</span>
+    </div>
+
+    <!--Task 4-->
+
+    <div class="container my-5">
+      <h1 class="display-2">TASK 4: APPLICATION OF BORDER SUBTRACTIVE</h1>
+          <span class="p-0 border border-3 bg-dark text-light border-start-0 border-danger">border-start-0</span>
+          <span class="p-1 border border-3 bg-dark text-light border-end-0 border-danger">border-end-0</span>
+          <span class="p-2 border border-3 bg-dark text-light border-top-0 border-danger">border-top-0</span>
+          <span class="p-3 border border-3 bg-dark text-light border-bottom-0 border-danger">border-bottom-0</span>
+          <span class="p-4 border border-3 bg-dark text-light border-top-0 border-bottom-0 border-danger">border-top-0 & border-bottom-0</span>
+          <span class="p-5 border border-3 bg-dark text-light border-start-0 border-end-0 border-danger">border-start-0 & border-end-0</span>
+    </div>
+
+    <!--Task 5-->
+
+    <div class="container">
+      <h1 class="display-2">TASK 5: APPLICATION OF BORDER WIDTH,COLOR AND RADIUS</h1>
+          <span class="border border-1 bg-warning text-dark border-danger">border-width-1</span>
+          <span class="border border-2 bg-warning text-dark border-danger">border-width-2</span>
+          <span class="border border-3 bg-warning text-dark border-danger">border-width-3</span>
+          <span class="border border-4 bg-warning text-dark border-danger">border-width-4</span>
+          <span class="border border-5 bg-warning text-dark border-danger">border-width-5</span>
+          <br>
+          <br>
+          <span class="border border-5 bg-dark text-light border-primary">border-primary</span>
+          <span class="border border-5 bg-dark text-light border-secondary">border-secondary</span>
+          <span class="border border-5 bg-dark text-light border-success">border-success</span>
+          <span class="border border-5 bg-dark text-light border-info">border-info</span>
+          <span class="border border-5 bg-dark text-light border-warning">border-warning</span>
+          <span class="border border-5 bg-dark text-light border-danger">border-danger</span>
+          <br>
+          <br>
+          <br>
+          <span class="border bg-secondary rounded text-white p-3">rounded</span>
+          <span class="border bg-secondary rounded-start text-white p-3">rounded-start</span>
+          <span class="border bg-secondary rounded-end text-white p-3">rounded-end</span>
+          <span class="border bg-secondary rounded-top text-white p-3">rounded-top</span>
+          <span class="border bg-secondary rounded-bottom text-white p-3">rounded-bottom</span>
+          <span class="border bg-secondary rounded-circle text-white p-4">rounded-circle</span>
+          <span class="border bg-secondary rounded-pill text-white p-4" id="rect">rounded-pill</span>
+          <br>
+          <br>
+    </div>
+
+    <!--Task 6-->
+
+    <div class="container">
+      <h1 class="display-2">TASK 6: APPLICATION OF ROUNDED SIZE & SHADOW</h1>
+          <br>
+          <span class="border bg-warning rounded-0 text-dark p-3">rounded-size-0</span>
+          <span class="border bg-warning rounded-1 text-dark p-3">rounded-size-1</span>
+          <span class="border bg-warning rounded-2 text-dark p-3">rounded-size-2</span>
+          <span class="border bg-warning rounded-3 text-dark p-3">rounded-size-3</span>
+          <br>
+          <br>
+          <br>
+          <span class="mb-5 border bg-light text-dark shadow-none p-3">shadow-none</span>
+          <span class="mb-5 border bg-light text-dark shadow-sm p-3">shadow-sm</span>
+          <span class="mb-5 border bg-light text-dark shadow p-3">shadow (regular)</span>
+          <span class="mb-5 border bg-light text-dark shadow-lg p-3">shadow-lg</span>
+    </div>
+  </body>
+</html>
